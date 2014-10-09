@@ -1,0 +1,11 @@
+﻿CREATE TABLE produto (
+  codigo			int(11)			NOT NULL AUTO_INCREMENT		,
+  nome_produto		varchar(100)	NOT NULL					,
+  preco_produto		decimal(18,2)	NOT NULL					,
+  data_compra		date			NOT NULL					,
+  garantia			varchar(10)		NOT NULL					,
+  entrega			varchar(1)		NOT NULL					,
+  info_adicionais	varchar(300)	NOT NULL					,
+  PRIMARY KEY (codigo));
+
+  desc produto;
